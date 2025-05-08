@@ -1,1 +1,78 @@
-# Meu-Site
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Minha Loja Online</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f5f5f5;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .produto {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 400px;
+      text-align: center;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .botao {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 10px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Minha Loja Online</h1>
+  <p>Os melhores produtos para você!</p>
+</header>
+
+<div class="produto">
+  <h2>Produto 1</h2>
+  <img src="https://via.placeholder.com/300x200" alt="Produto 1">
+  <p>Descrição breve do produto. Qualidade garantida.</p>
+  <strong>R$ 49,90</strong><br>
+  <a href="#" class="botao">Comprar</a>
+</div>
+
+<div class="produto">
+  <h2>Produto 2</h2>
+  <img src="https://via.placeholder.com/300x200" alt="Produto 2">
+  <p>Outro produto incrível à sua disposição.</p>
+  <strong>R$ 79,90</strong><br>
+  <a href="#" class="botao">Comprar</a>
+</div>
+
+<footer>
+  &copy; 2025 Minha Loja Online
+</footer>
+
+</body>
+</html>
+
